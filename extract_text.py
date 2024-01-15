@@ -1,7 +1,9 @@
 import pytesseract
 
 # Definir o caminho do executável do tesseract
-pytesseract.pytesseract.tesseract_cmd = r"D:\Python\Tesseract-OCR\tesseract.exe"
+# site : https://tesseract-ocr.github.io/tessdoc/Downloads.html
+# download link: https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe
+pytesseract.pytesseract.tesseract_cmd = r"tesseract.exe" # exemplo D:\Python\Tesseract-OCR\tesseract.exe
 
 font_default = 18
 
